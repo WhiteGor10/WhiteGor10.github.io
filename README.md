@@ -1,6 +1,6 @@
-# WhiteGor10 游戏作品集
+# WhiteGor10 个人主页与游戏作品集
 
-基于 Vite、React 和 TypeScript 构建的静态个人游戏作品集。游戏信息统一维护在 `src/data/games.json`，支持名称搜索、分类筛选和发布日期排序；无需后端或内容管理系统。
+基于 Vite、React 和 TypeScript 构建的静态个人网站。首页展示个人介绍，游戏作品集位于 `/games/`；个人资料和游戏内容分别由 JSON 文件维护，无需修改页面组件。
 
 ## 本地开发
 
@@ -26,7 +26,24 @@ npm run preview
 4. 若有介绍视频，填写 `videoUrl`；没有时可省略、设为 `null` 或空字符串。
 5. 运行 `npm run dev` 检查，再提交并推送到 `main` 分支。
 
-示例：
+## 编辑个人主页
+
+1. 在 `src/data/profile.json` 修改 `name`、`description` 和 `photo`。
+2. 将个人照片放到 `public/images/profile/`，并让 `photo` 指向该文件，例如 `images/profile/profile.jpg`。
+3. 将 Logo 图片放到 `public/images/logo/logo.png`。建议使用 3:2 比例；网站页眉和页脚会以足够醒目的尺寸显示该图片。文件尚未添加时会显示文字标记。
+4. 运行 `npm run dev` 检查首页和 `/games/` 页面。
+
+`profile.json` 示例：
+
+```json
+{
+  "name": "你的名字",
+  "description": "一段个人介绍。",
+  "photo": "images/profile/profile.jpg"
+}
+```
+
+游戏数据示例：
 
 ```json
 {
@@ -58,4 +75,4 @@ npm run preview
 
 ## GitHub Pages 部署
 
-仓库已配置 `.github/workflows/deploy.yml`。推送到 `main` 后，GitHub Actions 会安装依赖、构建 `dist` 并部署到 GitHub Pages；也可以在 Actions 页面手动运行工作流。Vite 使用根路径 `base: '/'`，适用于 `WhiteGor10.github.io` 用户/组织站点。请在仓库 **Settings → Pages → Build and deployment** 中选择 **GitHub Actions**。
+仓库已配置 `.github/workflows/deploy.yml`。推送到 `main` 后，GitHub Actions 会安装依赖、构建 `dist` 并部署到 GitHub Pages；也可以在 Actions 页面手动运行工作流。Vite 使用根路径 `base: '/'`，适用于 `WhiteGor10.github.io` 用户/组织站点。请在仓库 **Settings → Pages → Build and deployment** 中选择 **GitHub Actions**。首页由 `index.html` 构建，游戏作品页由 `games/index.html` 构建，因此 `/games/` 可以直接访问。

@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react';
 import gamesData from './data/games.json';
 import { GameCard } from './components/GameCard';
 import { GameFilters } from './components/GameFilters';
+import { SiteLogo } from './components/SiteLogo';
 import type { Game } from './types/game';
 import { filterAndSortGames, getCategories, type SortOrder } from './utils/gameFilters';
 
@@ -20,12 +21,11 @@ export default function App() {
   return (
     <div className="site-shell">
       <header className="site-header">
-        <a className="brand" href="#" aria-label="WhiteGor10 首页">
-          <span className="brand__mark" aria-hidden="true">W</span>
-          <span>WHITEGOR<span className="brand__accent">10</span></span>
-        </a>
+        <SiteLogo />
         <nav aria-label="主导航">
-          <a className="site-header__link" href="#games">作品集 <span aria-hidden="true">↘</span></a>
+          <a className="site-header__link" href={import.meta.env.BASE_URL}>
+            个人主页 <span aria-hidden="true">↖</span>
+          </a>
         </nav>
       </header>
 
@@ -88,14 +88,10 @@ export default function App() {
           )}
         </section>
 
-        <section id="about" aria-label="个人介绍预留" />
       </main>
 
       <footer className="site-footer">
-        <a className="brand brand--footer" href="#" aria-label="WhiteGor10 首页">
-          <span className="brand__mark" aria-hidden="true">W</span>
-          <span>WHITEGOR<span className="brand__accent">10</span></span>
-        </a>
+        <SiteLogo className="brand--footer" />
         <span>独立制作 · 持续创造</span>
         <span>© {new Date().getFullYear()} WHITEGOR10</span>
       </footer>
