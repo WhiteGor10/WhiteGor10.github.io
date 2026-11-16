@@ -1,0 +1,132 @@
+[
+    {
+        "id": "RoadOfLegion",
+        "title": "军团之路",
+        "description": "穿越到古代，掌控一支军团，逐渐发展科技，遭遇随机事件变强，参与并改变著名历史战役！",
+        "releaseDate": "2026-02-05",
+        "categories": ["战争", "模拟","2D","单人"],
+        "image": "images/games/The road of legion.png",
+        "downloadUrl": "https://drive.google.com/file/d/1M-IbEP4IfKgy9Bgf7EwbcMDO8p1vJ0_l/view?usp=drive_link",
+        "videoUrl": "https://www.bilibili.com/video/BV1DbEs6NE7Z/?share_source=copy_web&vd_source=5a9ff408ea48872409563c5c7f59a823"
+    },
+    {
+        "id": "LoopBreaker",
+        "title": "破环者 LoopBreaker",
+        "description": "《破环者》是一款以剧情为主的时间管理加回合制战斗游戏，你将扮演一位高中生，发现循环并积蓄力量，打败邪恶敌人，破除循环，拯救世界！",
+        "releaseDate": "2025-06-18",
+        "categories": ["回合制", "剧情","2D","单人"],
+        "image": "images/games/LoopBreaker.png",
+        "downloadUrl": "https://store.steampowered.com/app/3582130/%E7%A0%B4%E7%8E%AF%E8%80%85_LoopBreaker/",
+        "videoUrl": "https://www.bilibili.com/video/BV1yxQEYbEY8"
+    },
+    {
+        "id": "EldenRing_But",
+        "title": "艾尔登法环？",
+        "description": "一个迷你箱庭，战斗！",
+        "releaseDate": "2026-03-31",
+        "categories": ["魂类", "战斗","3D","单人"],
+        "image": "images/games/EldenRing.png",
+        "downloadUrl": "https://drive.google.com/file/d/1tiWSx0kKiEWxToPKcJeiFONoZ6rAS5W_/view?usp=drive_link",
+        "videoUrl": ""
+    },
+    {
+        "id": "LoopBreakerVSAnger",
+        "title": "破环者 vs 怒火",
+        "description": "幸存者Like多人小游戏",
+        "releaseDate": "2026-07-29",
+        "categories": ["幸存者Like", "多人","2D","小游戏"],
+        "image": "images/games/AngerAndLoopBreaker.png",
+        "downloadUrl": "https://drive.google.com/file/d/1ER-zIlaeavgmlibVArHyGtVg9Mo0i_3z/view?usp=drive_link",
+        "videoUrl": ""
+    },
+    {
+        "id": "Force",
+        "title": "力的作用",
+        "description": "点击来对球体施加力，到达终点。",
+        "releaseDate": "2026-05-20",
+        "categories": ["单人", "小游戏","2D"],
+        "image": "images/games/Force.png",
+        "downloadUrl": "https://drive.google.com/file/d/1xql3mG6ISnyKbddmxHxWcQ0AFVcwhqYb/view?usp=drive_link",
+        "videoUrl": ""
+    },
+    {
+        "id": "FindWayOut",
+        "title": "勇者请逃离",
+        "description": "[2024 CiGA Game Jam]你说的对，但是勇者请逃离是一款平台跳跃类游戏，你需要扮演勇者利用智慧在不断重复的世界上克服奇怪键位的困难，并且逃离这个世界。",
+        "releaseDate": "2024-07-07",
+        "categories": ["单人","小游戏","2D","平台跳跃"],
+        "image": "images/games/FindWayOut.png",
+        "downloadUrl": "https://drive.google.com/file/d/1NeeEEgrsro391bakjbi3hJVNm6Y2iIxG/view?usp=drive_link",
+        "videoUrl": "https://www.bilibili.com/video/BV1nxaVeLEtF"
+    },
+    {
+        "id": "CircuitMaster",
+        "title": "电路大师",
+        "description": "点击蓝色节点以完成电路！",
+        "releaseDate": "2024-06-22",
+        "categories": ["单人", "小游戏","2D","益智"],
+        "image": "images/games/Circuit.png",
+        "downloadUrl": "https://drive.google.com/file/d/1jAgkCENTDPrWZJ29aETbxCLzABCTjj80/view?usp=drive_link",
+        "videoUrl": "https://www.bilibili.com/video/BV11ug8eyE98"
+    },
+    {
+        "id": "Anger2",
+        "title": "怒火2 Anger2",
+        "description": "在钢铁、火药与战争的时代，继续怒火1的故事，乔恩在战火中被帝国俘虏，他千辛万苦逃出后却遇到……",
+        "releaseDate": "2026-11-16",
+        "categories": ["回合制", "剧情","2D","单人","卡牌"],
+        "image": "images/games/Anger2.png",
+        "downloadUrl": "https://drive.google.com/file/d/1wWeTOalC0woskGHE_S8bcgZIMsJk8sbs/view?usp=drive_link",
+        "videoUrl": ""
+    },
+    {
+        "id": "DayOfPlumer",
+        "title": "水管工的一天",
+        "description": "使用水管卡牌将起点和终点连在一起，在不断的工作中累积经验吧！",
+        "releaseDate": "2025-09-07",
+        "categories": ["2D","单人","卡牌","小游戏"],
+        "image": "images/games/DayOfPlumber.png",
+        "downloadUrl": "https://drive.google.com/file/d/1-g1VOz95iZVB9ijZaDEEQr1nlSYFE-7A/view?usp=drive_link",
+        "videoUrl": "https://www.bilibili.com/video/BV156FdzYE4o"
+    },
+    {
+        "id": "21Point",
+        "title": "21点，但作弊卡组",
+        "description": "玩21点，但是使用自己的作弊卡组，在不断的21点对战中，赌上一切，赚到10万块吧！",
+        "releaseDate": "2026-08-16",
+        "categories": ["2D","单人","卡牌","小游戏"],
+        "image": "images/games/21point.png",
+        "downloadUrl": "https://drive.google.com/file/d/1B5V3I6LLUNxv1Ny1IC7IHQpoDxlRecZo/view?usp=drive_link",
+        "videoUrl": ""
+    },
+    {
+        "id": "Anger",
+        "title": "怒火 Anger",
+        "description": "在钢铁、火药与战争的时代，共和国平民乔恩将走向何方？",
+        "releaseDate": "2023-06-22",
+        "categories": ["剧情","2D","单人","战斗"],
+        "image": "images/games/Anger.png",
+        "downloadUrl": "https://drive.google.com/file/d/1Qu_RAcw4l9adsU4uOedThsvZP9pm0CnQ/view?usp=drive_link",
+        "videoUrl": "https://www.bilibili.com/video/BV1yu411a7kk"
+    },
+    {
+        "id": "8402",
+        "title": "8402",
+        "description": "2048！但是逆转版。你需要滑动以分解方块，1再分就会消失。清除所有方块吧！",
+        "releaseDate": "2023-08-21",
+        "categories": ["2D","单人","益智","小游戏"],
+        "image": "images/games/8402.png",
+        "downloadUrl": "https://drive.google.com/file/d/10AKjMXol7CnbKQOC9gSY6fuOHWn0Xf9A/view?usp=sharing",
+        "videoUrl": "https://www.bilibili.com/video/BV1s14y1y7iB"
+    },
+    {
+        "id": "Ghost",
+        "title": "真实之魂",
+        "description": "[2023 CiGA Game Jam]玩家可以在灵魂和实体两种状态中切换，从而攀上山峰。",
+        "releaseDate": "2023-08-17",
+        "categories": ["2D","单人","平台跳跃","小游戏"],
+        "image": "images/games/ghost.png",
+        "downloadUrl": "https://drive.google.com/file/d/1CVMgRLt6oT6rgChcTCe8bY03jtrl7Kxg/view?usp=sharing",
+        "videoUrl": "https://www.bilibili.com/video/BV1Vm4y1n7ZK"
+    }
+]
