@@ -52,7 +52,6 @@ export function HomePage() {
             <span className="home-portrait__index" aria-hidden="true">01 / PROFILE</span>
             <span className="home-portrait__spark" aria-hidden="true">✳</span>
           </div>
-          <span className="home-hero__scroll" aria-hidden="true">SCROLL TO EXPLORE <span>↓</span></span>
         </section>
       </main>
 

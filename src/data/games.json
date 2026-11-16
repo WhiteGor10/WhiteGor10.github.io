@@ -77,7 +77,8 @@
         "categories": ["回合制", "剧情","2D","单人","卡牌"],
         "image": "images/games/Anger2.png",
         "downloadUrl": "https://drive.google.com/file/d/1wWeTOalC0woskGHE_S8bcgZIMsJk8sbs/view?usp=drive_link",
-        "videoUrl": ""
+        "videoUrl": "",
+        "featured": true
     },
     {
         "id": "DayOfPlumer",

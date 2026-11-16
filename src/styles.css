@@ -287,23 +287,6 @@ select:focus-visible {
   font-size: 26px;
 }
 
-.home-hero__scroll {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  position: absolute;
-  bottom: 26px;
-  left: 7%;
-  color: #85897e;
-  font: 9px var(--mono);
-  letter-spacing: 0.1em;
-}
-
-.home-hero__scroll span {
-  color: var(--accent);
-  font-size: 14px;
-}
-
 .site-header__link {
   color: #d3d4ce;
   font-size: 13px;
@@ -722,6 +705,7 @@ select:focus-visible {
   font-size: 12px;
   line-height: 1.7;
   -webkit-box-orient: vertical;
+  line-clamp: 3;
   -webkit-line-clamp: 3;
 }
 
@@ -843,10 +827,6 @@ select:focus-visible {
     padding-left: 5%;
   }
 
-  .home-hero__scroll {
-    left: 5%;
-  }
-
   .hero {
     min-height: 430px;
   }
@@ -906,11 +886,6 @@ select:focus-visible {
   .home-portrait {
     width: min(78%, 330px);
     margin: 0 12px 12px 0;
-  }
-
-  .home-hero__scroll {
-    bottom: 21px;
-    left: 4%;
   }
 
   .hero {
